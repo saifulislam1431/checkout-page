@@ -5,3 +5,101 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+.container{
+    padding: 40px 200px;
+}
+.heading{
+    font-weight: 600;
+    color: #4E5150;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.title{
+    margin-top: 50px;
+    font-weight: 600;
+    color: #333333;
+}
+.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    margin: 20px 0;
+}
+label{
+    font-weight: 600;
+    color: #4F4F4F;
+    font-size: 12px;
+    line-height: 14.63px;
+}
+#country{
+    display: flex;
+    margin-bottom: 10px;
+    width: 465px;
+    gap: 35px;
+}
+  
+.icon {
+    margin-top: 15px;
+    margin-left: 12px;
+    color: #828282;
+    font-size: 16px;
+}
+  
+.input-field {
+    padding: 15px;
+    width: 465px;
+    border: 1px solid #828282;
+    border-radius: 10px;
+}
+.country-input-field{
+    text-align: center;
+    padding: 15px;
+    width: 218px;
+    border: 1px solid #828282;
+    border-radius: 10px;
+}
+.country-input-field::placeholder{
+    position: absolute;
+    left: 50px;
+    font-weight: 600;
+}
+select{
+    font-weight: 600;
+    color: #828282;
+    text-align: center;
+}
+option{
+    font-weight: 600;
+    color: #828282;
+}
+.input-field{
+    text-align: center;
+}
+.input-field::placeholder{
+    position: absolute;
+    left: 50px;
+    font-weight: 600;
+}
+
+.check{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.check p{
+    font-weight: 600;
+     font-size: 12px;
+     color: #4F4F4F;
+}
+#con-btn{
+    padding: 15px 30px;
+    background-color: #F2994A;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 13px;
+}
