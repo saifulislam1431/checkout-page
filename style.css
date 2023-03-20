@@ -205,3 +205,23 @@ option{
 .section-title{
    font-weight: 600;
 }
+
+/* Footer style start */
+#footer{
+    text-align: center;
+    margin-top: 150px;
+}
+.footer-details{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #BDBDBD;
+    line-height: 17px;
+}
+
+.link{
+    font-weight: 700;
+    color: #BDBDBD;
+}
+/* Footer style start */
+
+/* Responsive layout */
