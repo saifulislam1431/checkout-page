@@ -6,7 +6,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 .container{
-    padding: 40px 200px;
+    padding: 40px 130px;
+}
+#checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 .heading{
     font-weight: 600;
@@ -102,4 +108,100 @@ option{
     font-weight: 600;
     color: #ffffff;
     font-size: 13px;
+}
+
+
+
+
+#cart{
+     background-color:#F2F2F2 ;
+     padding: 30px;
+     border-radius: 10px;
+}
+.pro-img{
+    width: 150px;
+    border-radius: 25px;
+}
+.pro1,.pro2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.pro2{
+    margin-bottom: 80px;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+}
+#quantity{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    outline: nones;
+    color: #4E5150;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    background-color:#F2F2F2 ;
+}
+.fa-solid{
+    color: #828282;
+    font-size: 20px;
+    background-color: #cfd3d2;
+    padding: 2px;
+    border-radius: 5px;
+}
+.fa-minus{
+    position: absolute;
+    margin-left: 5px;
+
+}
+.fa-plus{
+    position: absolute;
+    margin-left: 94px;
+}
+
+.pro-name{
+  font-weight: 600;
+  padding-bottom: 15px;
+  color: #4E5150;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.current-price{
+    color: #F2994A;
+    font-weight: 600;
+}
+.old-price{
+    color: #4E5150;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+.shopping{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.shop-price{
+    color: #333333;
+    font-weight: 600;
+}
+.section-title{
+   font-weight: 600;
 }
