@@ -148,21 +148,25 @@ option{
     text-align: center;
     background-color:#F2F2F2 ;
 }
-.fa-solid{
+
+.fa-minus{
+    position: absolute;
+    margin-left: 5px;
     color: #828282;
     font-size: 20px;
     background-color: #cfd3d2;
     padding: 2px;
     border-radius: 5px;
-}
-.fa-minus{
-    position: absolute;
-    margin-left: 5px;
 
 }
 .fa-plus{
     position: absolute;
     margin-left: 94px;
+    color: #828282;
+    font-size: 20px;
+    background-color: #cfd3d2;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 .pro-name{
@@ -247,10 +251,6 @@ option{
 .country-input-field{
     padding: 15px;
     width: 130px;
-}
-.icon{
-    padding: 0;
-    background-color: transparent;
 }
 .select-field{
     width: 165px;
